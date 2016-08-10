@@ -6,12 +6,7 @@
 	        $name = basename($_FILES["fileToUpload"]["name"]);
 	        move_uploaded_file($tmp_name, "$uploads_dir/$name");
 			if($tmp_name !== false){
-				echo "file is an image =  ".$name;
-				$curr_Img =$uploads_dir.'\\'.$name;
-	?>
-		
-			<img src="<?php echo $curr_Img ?>">
-	<?php			
+				echo "file is an image =  ".$name;			
 				$uploadOk = 1;
 			}
 			else {
