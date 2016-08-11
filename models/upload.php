@@ -1,5 +1,23 @@
-  <?php 
-		if(isset($_POST["submit"])){
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+Cloudinary::config(array( 
+  "cloud_name" => "dkscxlm7t", 
+  "api_key" => "314252151815811", 
+  "api_secret" => "Rd36lMKpMqbXL6lE4lBPtY0XNJI" 
+));
+$img = Cloudinary\Uploader::upload($_FILES["fileToUpload"]["tmp_name"]);
+ if($img){
+ 	echo "file is an image Uploaded ";	
+ }
+ else
+ 	echo "file not upload!";
+?>
+
+
+   <?php 
+/*		if(isset($_POST["submit"])){
 
 			$uploads_dir = 'c:\xampp\htdocs\blog\images\upload';
 	       	$tmp_name = $_FILES["fileToUpload"]["tmp_name"];
@@ -14,4 +32,4 @@
 				$uploadOk = 0;
 			}
 		}
-	?>
+*/	?>

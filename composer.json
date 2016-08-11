@@ -1,0 +1,12 @@
+{
+    "name": "naveen/blog",
+    "authors": [
+        {
+            "name": "Naveen",
+            "email": "naveengour15@gmail.com"
+        }
+    ],
+    "require": {
+        "cloudinary/cloudinary_php": "^1.4"
+    }
+}
