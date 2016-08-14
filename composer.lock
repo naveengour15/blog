@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ff6a9d3adfb37d4b3be0c136f13040a",
-    "content-hash": "79f864588e68aea57503148ab016d264",
+    "hash": "id",
+    "content-hash": "id",
     "packages": [
         {
             "name": "cloudinary/cloudinary_php",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "64a3efeda2cb3b27928cc9a50eb52fcfbfca7507"
+                "reference": "reference id"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/64a3efeda2cb3b27928cc9a50eb52fcfbfca7507",
-                "reference": "64a3efeda2cb3b27928cc9a50eb52fcfbfca7507",
+                "url": "https://api.github.com/....",
+                "reference": "reference id",
                 "shasum": ""
             },
             "require": {
